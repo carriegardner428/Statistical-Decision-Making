@@ -9,5 +9,5 @@ Docker image extends [Jupyter Docker Stack's](https://jupyter-docker-stacks.read
 
 ``` docker build . -t stats ```
 
-2. Run docker image
+2. Run docker image  
 ``` docker -p 8888:8888 -v $(pwd):/home/jovyan/work stats ```
